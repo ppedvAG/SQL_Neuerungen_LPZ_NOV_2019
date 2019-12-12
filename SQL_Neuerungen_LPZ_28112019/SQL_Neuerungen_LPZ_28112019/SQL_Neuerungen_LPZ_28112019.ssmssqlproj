@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL_Neuerungen_LPZ_28112019">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HV-SQL2019:HV-SQL2019\Administrator">
+          <Created>2019-11-28T10:05:59.1193581+01:00</Created>
+          <Type>SQL</Type>
+          <Server>HV-SQL2019</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HV-SQL2019\LPZ:HV-SQL2019\Administrator">
+          <Created>2019-11-28T14:07:46.4411897+01:00</Created>
+          <Type>SQL</Type>
+          <Server>HV-SQL2019\LPZ</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0001_Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0001_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0002_ContainedDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0002_ContainedDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0003_DB Settings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019\LPZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019\LPZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0003_DB Settings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0004_Filestreaming.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019\LPZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019\LPZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0004_Filestreaming.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0005_Columnstore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0005_Columnstore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0006_Wartung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0006_Wartung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_AdaptiveJoins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01_AdaptiveJoins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_GraphDatabases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_GraphDatabases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AlwaysEnc.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>AlwaysEnc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Dynamic Data Masking.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Dynamic Data Masking.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FileStreaming_Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019\LPZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019\LPZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FileStreaming_Tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Filetable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Filetable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IM_RealTime.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IM_RealTime.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QueryStore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>QueryStore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RowLevelSec_1_demo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RowLevelSec_1_demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TempDB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TempDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TemporalTables_1_Aktivieren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TemporalTables_1_Aktivieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TemporalTables_2_Demo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TemporalTables_2_Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Wait_Stats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Wait_Stats.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="airports.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>airports.txt</FullPath>
+        </FileNode>
+        <FileNode Name="routes.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>routes.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
